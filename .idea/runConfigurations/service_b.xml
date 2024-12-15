@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="service b" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="microservices-hello-world" />
+    <working_directory value="$PROJECT_DIR$/service-b" />
+    <kind value="PACKAGE" />
+    <package value="github.com/khouini/microservices-hello-world/service-b" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$/service-b/main.go" />
+    <method v="2" />
+  </configuration>
+</component>

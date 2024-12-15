@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="service a" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="microservices-hello-world" />
+    <working_directory value="$PROJECT_DIR$/service-a" />
+    <kind value="FILE" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$/service-a/main.go" />
+    <method v="2" />
+  </configuration>
+</component>

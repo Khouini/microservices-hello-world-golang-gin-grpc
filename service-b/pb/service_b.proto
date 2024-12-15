@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package serviceb;
+
+option go_package = "./pb";
+
+service ServiceBHello {
+  rpc SayHello (ServiceBHelloRequest) returns (ServiceBHelloResponse) {}
+}
+
+message ServiceBHelloRequest {
+  string name = 1;
+}
+
+message ServiceBHelloResponse {
+  string message = 1;
+}
